@@ -1,12 +1,18 @@
+html{
+    /* height: 100%; */
+}
+
 body{
+    /* min-height: 100%; */
     background-color: #252422;
     font-family: 'Roboto', sans-serif;
-    /* margin: 0; */
+    margin: 0;
 }
 
 span{
     color: white;
     font-size: 2rem;
+    font-style: italic;
 }
 
 .footer{
@@ -19,6 +25,7 @@ span{
     display: grid;
     grid-template-columns: 20% 60% 20%;
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 h1{
@@ -69,10 +76,37 @@ p{
     margin: 0;
     display: grid;
     grid-template-columns: 15% 75% 10%;
-    vertical-align:middle;
+    /* grid-template-columns: 1fr 5fr 1fr; */
 }
 
 .ellipsis{
     font-size: 1rem;
-    font-weight: lighter;
+    font-weight: lighter;   
+}
+
+.picture{
+    max-width: 100%;
+    margin-bottom: 0.6rem;
+}
+
+.icons-heart, .icons-comment, .icons-send{
+    margin: 0.7rem;
+}
+
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.icons-bookmark{
+    margin-right: 0.7rem;
+}
+
+.information{
+    margin-left: 0.7rem;
+}
+
+.information-time{
+    color:grey;
 }

@@ -19,11 +19,13 @@ span{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 0.5rem;
 }
+
 
 .header{
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 15% 65% 20%;
     text-align: center;
     margin-top: 0.5rem;
 }
@@ -40,7 +42,7 @@ p{
 
 .chevron{
     text-align: left;
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
 }
 
 .user-public{
@@ -48,12 +50,23 @@ p{
     margin-top: 0.1rem;
     font-weight: bold;
     font-size: 1.2rem;
+    margin-bottom: 0.1rem;
 }
 
 .follow{
     color: #1a759f;
     font-weight: bold;
     text-decoration:none;
+    margin-right: 0.5rem;
+}
+
+.follower{
+    padding-top: 0.5rem;
+}
+
+.alignvert{
+    display: table-cell;
+    vertical-align: bottom;
 }
 
 .title-name{
@@ -70,6 +83,7 @@ p{
 .logo{
     border-radius: 50%;
     max-width: 2.8rem;
+    margin-left: 0.5rem;
 }
 
 .title{
